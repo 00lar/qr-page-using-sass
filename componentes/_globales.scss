@@ -1,0 +1,30 @@
+$White:hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+$Font1: 'Outfit', sans-serif;
+
+@mixin texto {
+    font-family: $Font1;
+    text-align: center;
+    margin: 20px 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    background-color: $Light-gray;
+}
