@@ -40,6 +40,8 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px;
+  -webkit-box-shadow: 0px 5px 15px -7px #000000;
+          box-shadow: 0px 5px 15px -7px #000000;
 }
 .card__img img {
   width: 100%;
