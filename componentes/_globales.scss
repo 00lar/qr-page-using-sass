@@ -7,7 +7,7 @@ $Font1: 'Outfit', sans-serif;
 @mixin texto {
     font-family: $Font1;
     text-align: center;
-    margin: 20px 0;
+    margin: 1.2em 0;
 }
 
 * {
@@ -25,6 +25,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 95vh;
+    max-width: 100vw;
+    min-height: 100vh;
     background-color: $Light-gray;
 }
